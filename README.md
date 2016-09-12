@@ -39,4 +39,4 @@ USAGE
 ------------------------
 1.Start Hotspot on phone and wait for Pi Zero to connect
 
-2. use netIO to control car
+2.Use netIO to control car
