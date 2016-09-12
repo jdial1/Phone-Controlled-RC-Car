@@ -27,10 +27,16 @@ This is a project to control any cheap rc car using an Arduino, a Motor Shield, 
 -----
  Pi Zero
  -----
-  1.Run the python script on your Pi Zero
-
-  2.Configure static IP address on Pi Zero
-
+ 
+  1.Configure static IP address on Pi Zero
+  
+  
+  2.Set python script to start on boot
+  
+  ```bash
+  sudo crontab -e
+  @reboot python /home/pi/downloads/server.py &
+  '''
 
  -----
   Phone
