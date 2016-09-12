@@ -23,11 +23,13 @@ Arduino
 -----
   1. Upload the sketch to your Arduino -> <a href="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/Arduino/Arduino%20RC%20Car%20Sketch">LINK</a>
 
-  2. Connect GPIO pins
+  2. Connect Back motor to M4 and front motor to M1
+
+  3. Connect GPIO pins
 
 <img src="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/images/Pi-Zero-GPIO-PINOUT.PNG" Width=10%></img><img src="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/images/Pi-table.PNG" Width=30%></img>
 
-  3. Connect Back motor to M4 and front motor to M1
+
 
 Pi Zero
 -----
