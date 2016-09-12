@@ -13,15 +13,7 @@ Arduino
 
 2. Connect GPIO pins
 
-
-  Pi Zero   | Arduino
-        ---|---
-    8       |      A0
-    9       |      A1
-    10      |      A2
-   11      |      A4
-
-<img src="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/Pi-Zero-GPIO-PINOUT.PNG" Width=10%></img>
+<img src="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/Pi-table.PNG" Width=20%></img><img src="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/Pi-Zero-GPIO-PINOUT.PNG" Width=20%></img>
 
 
 Pi Zero
