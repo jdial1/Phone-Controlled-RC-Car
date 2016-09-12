@@ -6,6 +6,7 @@ This is a project to control an rc car using an Arduino, a Motor Shield, and a P
 1.Upload the sketch to your arduino
 
 2.Connect GPIO pins
+
     PI      Arduino Analog
                 0
                 1
