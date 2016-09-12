@@ -27,7 +27,7 @@ ifconfig wlan0 up
 ```
 
 
-2. Set python script to start on boot -><a href="https://play.google.com/store/apps/details?id=com.luvago.netio&hl=en">LINK</a>
+2. Set python script to start on boot -><a href="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/Ras%20Pi%20Zero/Python%20server%20script">LINK</a>
 
 ```bash
 sudo crontab -e
