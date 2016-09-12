@@ -15,13 +15,14 @@ Arduino
 
 
   Pi Zero   | Arduino Analog 
-  ---|---
-    8     |       0
-    9      |      1
-    10    |       2
-    11      |      4
+  |       ---|---|<img src="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/Pi-Zero-GPIO-PINOUT.PNG" Width=10%></img>
 
-<img src="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/Pi-Zero-GPIO-PINOUT.PNG" Width=10%></img>
+  |  8       |      0|
+  |  9       |      1|
+  |  10      |      2|
+  |  11      |      4|
+
+
 
 
 Pi Zero
