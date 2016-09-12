@@ -25,7 +25,7 @@ Arduino
 
   2. Connect GPIO pins
 
-<img src="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/images/Pi-table.PNG" Width=30%></img><img src="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/images/Pi-Zero-GPIO-PINOUT.PNG" Width=10%></img>
+<img src="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/images/Pi-Zero-GPIO-PINOUT.PNG" Width=10%></img><img src="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/images/Pi-table.PNG" Width=30%></img>
 
   3. Connect Back motor to M4 and front motor to M1
 
