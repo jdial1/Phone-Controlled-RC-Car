@@ -5,8 +5,8 @@ This is a project to control any cheap rc car using an Arduino, a Motor Shield, 
 
 
 SETUP
-
-1.Upload the sketch to your arduino
+------------------
+1.Upload the sketch to your Arduino
 
 2.Connect GPIO pins
 
@@ -23,8 +23,12 @@ SETUP
 
 4.Configure static IP address on Pi Zero
 
-5.Start Hotspot on phone
+5.Install NetIO <a href="https://play.google.com/store/apps/details?id=com.luvago.netio&hl=en">LINK</a>
 
-6.Connect to hotspot with Pi Zero
 
-7.Install NetIO <a href="https://play.google.com/store/apps/details?id=com.luvago.netio&hl=en">LINK</a>
+
+USAGE
+------------------------
+6.Start Hotspot on phone
+
+7.Connect to hotspot with Pi Zero
