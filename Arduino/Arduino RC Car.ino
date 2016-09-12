@@ -72,36 +72,8 @@ void moveForward(){
 	backmotor.run(FORWARD);
 }
 
-void moveLeftForward(){
-	turnLeft();
-	backmotor.run(RELEASE);
-	 delay(5);
-    	backmotor.run(FORWARD);
-}
-
-void moveRightForward(){
-	turnRight();
-	backmotor.run(RELEASE);
-	delay(5);
-	backmotor.run(FORWARD);
-}
-
 //backward methods
 void moveBackward(){
-	backmotor.run(RELEASE);
-	delay(5);
-	backmotor.run(BACKWARD);
-}
-
-void moveLeftBackward(){
-	turnLeft();
-	backmotor.run(RELEASE);
-	delay(5);
-	backmotor.run(BACKWARD);
-}
-
-void moveRightBackward(){
-	turnRight();
 	backmotor.run(RELEASE);
 	delay(5);
 	backmotor.run(BACKWARD);
@@ -118,4 +90,29 @@ void turnRight(){
 	frontmotor.run(RELEASE);
 	delay(5);
 	frontmotor.run(FORWARD);
+}
+
+//complex moves
+void moveLeftForward(){
+	turnLeft();
+	moveForward();
+	frontmotor.run(RELEASE);
+}
+
+void moveRightForward(){
+	turnRight();
+	moveForward();
+	frontmotor.run(RELEASE);
+}
+
+void moveLeftBackward(){
+	turnLeft();
+	moveBackward();
+	frontmotor.run(RELEASE);
+}
+
+void moveRightBackward(){
+	turnRight();
+	moveBackward();
+	frontmotor.run(RELEASE);
 }
