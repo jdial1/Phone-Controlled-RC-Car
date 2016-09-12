@@ -18,7 +18,7 @@ This is a project to control any cheap rc car using an Arduino, a Motor Shield, 
 
 
 
-   **Arduino
+   ##Arduino##
   ------
   1.Upload the sketch to your Arduino
 
@@ -26,7 +26,7 @@ This is a project to control any cheap rc car using an Arduino, a Motor Shield, 
 
 
 
-  **Pi Zero
+ ##Pi Zero##
   ------
   1.Run the python script on your Pi Zero
 
@@ -34,7 +34,7 @@ This is a project to control any cheap rc car using an Arduino, a Motor Shield, 
 
 
  
-  **Phone
+  ##Phone##
   -------
   1.Start Hotspot on phone
 
