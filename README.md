@@ -1,7 +1,7 @@
 # Phone-Controlled-RC-Car
 
 
-This is a project to control any cheap rc car using an Arduino, a Motor Shield, and a PI Zero.
+Control any cheap rc car using an Arduino, a Motor Shield, and a PI Zero.
 
 
 # SETUP
