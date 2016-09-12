@@ -2,7 +2,13 @@
 
 
 Control any cheap rc car using an Arduino, a Motor Shield, and a PI Zero.
-
+# REQUIREMENTS
+*Raspberry Pi Zero
+*Wifi Dongle
+*Arduino
+*Arduino Motor Shield
+*Android Phone
+*Cheap RC Car
 
 # SETUP
 
