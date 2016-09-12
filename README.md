@@ -23,12 +23,20 @@ SETUP
 
 4.Configure static IP address on Pi Zero
 
-5.Install NetIO <a href="https://play.google.com/store/apps/details?id=com.luvago.netio&hl=en">LINK</a>
+5.Start Hotspot on phone
+
+6.Connect to hotspot and set to autoconnect
+
+7.Turn off phone hotspot
+
+8.Install NetIO <a href="https://play.google.com/store/apps/details?id=com.luvago.netio&hl=en">LINK</a>
+
+9.Import controls to NetIO
 
 
 
 USAGE
 ------------------------
-6.Start Hotspot on phone
+1.Start Hotspot on phone and wait for Pi Zero to connect
 
-7.Connect to hotspot with Pi Zero
+2. use netIO to control car
