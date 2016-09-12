@@ -9,6 +9,8 @@ This is a project to control an rc car using an Arduino, a Motor Shield, and a P
 
 <img src="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/PI-Zero-GPIO-PINOUT.PNG" width="40%"></img>
 
+<img src="http://artofcircuits.com/wp-content/uploads/2014/03/L293D-motor-shield-2.jpg" width="40%"></img>
+
 
   Pi Zero   | Arduino Analog
   ---|---
