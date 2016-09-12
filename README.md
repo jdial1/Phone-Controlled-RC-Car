@@ -1,4 +1,4 @@
-# Phone-Controlled-RC-Car
+# Phone Controlled Car
 
 
 Control any cheap rc car using an Arduino, a Motor Shield, and a PI Zero.
