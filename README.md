@@ -26,9 +26,7 @@ ifconfig wlan0 down
 ifconfig wlan0 192.168.1.25
 ifconfig wlan0 up
 ```
-
-3. Download python script and set to start on boot -><a href="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/Ras%20Pi%20Zero/Python%20server%20script">LINK</a>
-
+3. Download python script and set to start on boot -> <a href="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/Ras%20Pi%20Zero/Python%20server%20script">LINK</a>
 ```bash
 sudo crontab -e
 @reboot python /home/pi/downloads/server.py &
