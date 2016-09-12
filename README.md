@@ -3,7 +3,7 @@
 
 This is a project to control any cheap rc car using an Arduino, a Motor Shield, and a PI Zero.
 
-<img src="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/PI-Zero-GPIO-PINOUT.PNG"></img>
+<img src="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/Pi-Zero-GPIO-PINOUT.PNG"></img>
 
   Pi Zero   | Arduino Analog
   ---|---
