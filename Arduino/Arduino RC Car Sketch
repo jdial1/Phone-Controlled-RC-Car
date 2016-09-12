@@ -4,46 +4,46 @@ AF_DCMotor backmotor(4);
 AF_DCMotor frontmotor(1);
 
 void setup() {
-  // initialize serial communications at 9600 bps:
-  Serial.begin(9600);
-  
-  pinMpode(A0, INPUT);//forward
-  pinMode(A1, INPUT);//backward
-  pinMode(A2, INPUT);//left
-  pinMode(A4, INPUT);//right
-
-
-  backmotor.setSpeed(255);
-  frontmotor.setSpeed(150);
-
-  int voltCap=0;
-  int voltSum=0;
-  
-  	
+	// initialize serial communications at 9600 bps:
+	Serial.begin(9600);
+	
+	pinMpode(A0, INPUT);//forward
+	pinMode(A1, INPUT);//backward
+	pinMode(A2, INPUT);//left
+	pinMode(A4, INPUT);//right
+	
+	
+	backmotor.setSpeed(255);
+	frontmotor.setSpeed(150);
+	
+	int voltCap=0;
+	int voltSum=0;
+	
+	  
 	//get analogReads of each 4 10x
 	for (int i=0; i <= 10; i++){
-		  voltSum = voltSum +analogRead(A0)+analogRead(A1)+analogRead(A2)+analogRead(A4);
-		  delay(500);
-   } 
-   
-   //divide total by 40 to get average and add 50
-   voltCap=(voltAverage/40)+50;
-   
-   //show car is ready to go
-   backmotor.run(FORWARD);
-    delay(250);
-   backmotor.run(RELEASE);
-   delay(250);
-   backmotor.run(BACKWARD);
-   delay(250);
-   backmotor.run(RELEASE);
-   frontmotor.run(RELEASE);
+		voltSum = voltSum +analogRead(A0)+analogRead(A1)+analogRead(A2)+analogRead(A4);
+		delay(500);
+	} 
+	
+	//divide total by 40 to get average and add 50
+	voltCap=(voltAverage/40)+50;
+	
+	//show car is ready to go
+	backmotor.run(FORWARD);
+	delay(250);
+	backmotor.run(RELEASE);
+	delay(250);
+	backmotor.run(BACKWARD);
+	delay(250);
+	backmotor.run(RELEASE);
+	frontmotor.run(RELEASE);
 }
 
 void loop() {
-  
-  Serial.print(voltCap);
-
+	
+	Serial.print(voltCap);
+	
 	for (int i=0; i < 5; i++){
 		if (analogRead(Ai)>voltCap){
 			switch(i){
@@ -56,8 +56,7 @@ void loop() {
 				case 2://left
 					turnLeft();
 				break;
-				case 3://empty as analog pin kept having interference 
-				break;
+				case 3:break;//left empty A3 has alot of interference
 				case 4://right
 					turnRight();
 				break;
@@ -68,29 +67,30 @@ void loop() {
 				
 			}
 		}
-   } 
-}
-
-void moveForward(){
-	backmotor.run(RELEASE);
-	 delay(5);
-	 backmotor.run(FORWARD);
-}
-
-void moveBackward(){
-	backmotor.run(RELEASE);
-	delay(5);
-	backmotor.run(BACKWARD);
-}
-
-void turnLeft(){
-	frontmotor.run(RELEASE);
-	 delay(5);
-	frontmotor.run(BACKWARD);
-}
-
-void turnRight(){
-	frontmotor.run(RELEASE);
-	delay(5);
-	frontmotor.run(FORWARD);
+	} 
+	}
+	
+	void moveForward(){
+		backmotor.run(RELEASE);
+		 delay(5);
+		 backmotor.run(FORWARD);
+	}
+	
+	void moveBackward(){
+		backmotor.run(RELEASE);
+		delay(5);
+		backmotor.run(BACKWARD);
+	}
+	
+	void turnLeft(){
+		frontmotor.run(RELEASE);
+		 delay(5);
+		frontmotor.run(BACKWARD);
+	}
+	
+	void turnRight(){
+		frontmotor.run(RELEASE);
+		delay(5);
+		frontmotor.run(FORWARD);
+	}
 }
