@@ -10,7 +10,7 @@ SETUP
 
 2.Connect GPIO pins
 
-<img src="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/PI-Zero-GPIO-PINOUT.PNG"></img>|<img src="http://artofcircuits.com/wp-content/uploads/2014/03/L293D-motor-shield-2.jpg"></img>
+<img src="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/PI-Zero-GPIO-PINOUT.PNG"></img>
 
   Pi Zero   | Arduino Analog
   ---|---
