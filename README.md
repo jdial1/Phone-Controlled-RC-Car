@@ -16,7 +16,6 @@ Arduino
 
   Pi Zero   | Arduino Analog 
         ---|---
-
     8       |      0
     9       |      1
     10      |      2
