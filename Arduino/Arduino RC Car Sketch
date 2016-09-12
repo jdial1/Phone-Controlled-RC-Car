@@ -73,8 +73,8 @@ void loop() {
 
 void moveForward(){
 	backmotor.run(RELEASE);
-    delay(5);
-    backmotor.run(FORWARD);
+	 delay(5);
+	 backmotor.run(FORWARD);
 }
 
 void moveBackward(){
@@ -85,7 +85,7 @@ void moveBackward(){
 
 void turnLeft(){
 	frontmotor.run(RELEASE);
-    delay(5);
+	 delay(5);
 	frontmotor.run(BACKWARD);
 }
 
