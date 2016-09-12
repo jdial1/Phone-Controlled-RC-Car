@@ -4,7 +4,7 @@ AF_DCMotor backmotor(4);
 AF_DCMotor frontmotor(1);
 
 void setup() {
-  pinMpode(A0, INPUT);//forward
+  pinMode(A0, INPUT);//forward
   pinMode(A1, INPUT);//backward
   pinMode(A2, INPUT);//left
   pinMode(A4, INPUT);//right
