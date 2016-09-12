@@ -36,7 +36,7 @@ This is a project to control any cheap rc car using an Arduino, a Motor Shield, 
   ```bash
   sudo crontab -e
   @reboot python /home/pi/downloads/server.py &
-  '''
+```
 
  -----
   Phone
