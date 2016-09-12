@@ -45,7 +45,7 @@ Control any cheap rc car using an Arduino, a Motor Shield, and a PI Zero.
   -----
   1.Start Hotspot on phone
 
-  2.Connect to hotspot and set to autoconnect
+  2.Connect Pi Zero to hotspot and set to autoconnect
 
   3.Turn off phone hotspot
 
