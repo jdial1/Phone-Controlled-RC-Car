@@ -8,7 +8,7 @@ Control any cheap rc car using an Arduino, a Motor Shield, and a PI Zero.
 
   -----
   Arduino
-   -----
+  -----
   1. Upload the sketch to your Arduino
 
   2. Connect GPIO pins
@@ -23,7 +23,7 @@ Control any cheap rc car using an Arduino, a Motor Shield, and a PI Zero.
 
 <img src="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/Pi-Zero-GPIO-PINOUT.PNG" Width=10%></img>
 
------
+ -----
  Pi Zero
  -----
  
@@ -42,7 +42,7 @@ Control any cheap rc car using an Arduino, a Motor Shield, and a PI Zero.
   @reboot python /home/pi/downloads/server.py &
   ```
 
- -----
+  -----
   Phone
   -----
   1. Start Hotspot on phone
