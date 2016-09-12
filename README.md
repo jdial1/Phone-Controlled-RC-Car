@@ -7,6 +7,9 @@ This is a project to control an rc car using an Arduino, a Motor Shield, and a P
 
 2.Connect GPIO pins
 
+<img src="https://cloud.githubusercontent.com/assets/4307137/10105283/251b6868-63ae-11e5-9918-b789d9d682ec.png" width="90%"></img>
+
+
   Pi Zero   | Arduino Analog
   ---|---
     8     |       0
