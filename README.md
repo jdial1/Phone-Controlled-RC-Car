@@ -27,7 +27,7 @@ ifconfig wlan0 up
 ```
 
 
-2. Set python script to start on boot
+2. Set python script to start on boot -><a href="https://play.google.com/store/apps/details?id=com.luvago.netio&hl=en">LINK</a>
 
 ```bash
 sudo crontab -e
@@ -42,7 +42,7 @@ Phone
 
 3. Turn off phone hotspot
 
-4. Install NetIO <a href="https://play.google.com/store/apps/details?id=com.luvago.netio&hl=en">LINK</a>
+4. Install NetIO -><a href="https://play.google.com/store/apps/details?id=com.luvago.netio&hl=en">LINK</a>
 
 5. Import controls to NetIO
 
