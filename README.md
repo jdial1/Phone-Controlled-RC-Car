@@ -29,7 +29,9 @@ Control any cheap rc car using an Arduino, a Motor Shield, and a PI Zero.
  
   1.Configure static IP address on Pi Zero
   ```bash
+  ifconfig wlan0 down
   ifconfig wlan0 192.168.1.25
+  ifconfig wlan0 up
   ```
   
   
