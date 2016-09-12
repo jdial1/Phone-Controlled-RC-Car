@@ -1,4 +1,3 @@
-#!C
 #include <AFMotor.h>
 
 AF_DCMotor backmotor(4);
