@@ -14,25 +14,26 @@ This is a project to control any cheap rc car using an Arduino, a Motor Shield, 
     
     
 # SETUP
-------------------
 
 
-
-   ## Arduino ##
+  Arduino
+   -----
   1.Upload the sketch to your Arduino
 
   2.Connect GPIO pins
 
 
 
- ## Pi Zero ##
+ Pi Zero
+ -----
   1.Run the python script on your Pi Zero
 
   2.Configure static IP address on Pi Zero
 
 
  
-  ## Phone ##
+  Phone
+  -----
   1.Start Hotspot on phone
 
   2.Connect to hotspot and set to autoconnect
