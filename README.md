@@ -7,11 +7,13 @@ This is a project to control any cheap rc car using an Arduino, a Motor Shield, 
 SETUP
 ------------------
 
+
   Arduino
   ------
   1.Upload the sketch to your Arduino
 
   2.Connect GPIO pins
+
 
   Pi Zero
   ------
@@ -28,8 +30,8 @@ SETUP
     9      |      1
     10    |       2
     11      |      4
-                
-                
+ 
+ 
   Phone
   -------
 5.Start Hotspot on phone
