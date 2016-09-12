@@ -1,7 +1,3 @@
- // Adafruit Motor shield library
-// copyright Adafruit Industries LLC, 2009
-// this code is public domain, enjoy!
-
 #include <AFMotor.h>
 
 AF_DCMotor backmotor(4);
@@ -11,10 +7,10 @@ void setup() {
   // initialize serial communications at 9600 bps:
   Serial.begin(9600);
   
-  pinMpode(A0, INPUT);
-  pinMode(A1, INPUT);
-  pinMode(A2, INPUT);
-  pinMode(A4, INPUT);
+  pinMpode(A0, INPUT);//forward
+  pinMode(A1, INPUT);//backward
+  pinMode(A2, INPUT);//left
+  pinMode(A4, INPUT);//right
 
 
   backmotor.setSpeed(255);
@@ -48,46 +44,53 @@ void loop() {
   
   Serial.print(voltCap);
 
-
-  //forward
-if (analogRead(A0)>voltCap){
-    Serial.print("Forward ");
-      backmotor.run(RELEASE);
-       delay(10);
-      backmotor.run(FORWARD);
- }
-  //backward
-  else if (analogRead(A1)>voltCap){
-    Serial.print("Backward ");
-       backmotor.run(RELEASE);
-       delay(10);
-      backmotor.run(BACKWARD);
-  }
-  //stop back motor
-else{
-    backmotor.run(RELEASE);
-    delay(10);
- }
-
-  //right
-    if (analogRead(A2)>voltCap){
-      Serial.print("Right ");
-      frontmotor.run(RELEASE);
-      delay(10);
-     frontmotor.run(FORWARD);
-  }
-  //left
-   else if (analogRead(A4)>voltCap){
-    Serial.print("Left ");
-    frontmotor.run(RELEASE);
-    delay(10);
-     frontmotor.run(BACKWARD);
-  }
-  //stop front motor
-  else {
-    frontmotor.run(RELEASE);
-    delay(10);
-  }
-
+	for (int i=0; i < 5; i++){
+		if (analogRead(Ai)>voltCap){
+			switch(i){
+				case 0://forward
+					moveForward();
+				break;
+				case 1://backward
+					moveBackward();
+				break;
+				case 2://left
+					turnLeft();
+				break;
+				case 3://empty as analog pin kept having interference 
+				break;
+				case 4://right
+					turnRight();
+				break;
+				default: //no input stop motors
+				    backmotor.run(RELEASE);
+				    frontmotor.run(RELEASE);
+				break;
+				
+			}
+		}
+   } 
 }
 
+void moveForward(){
+	backmotor.run(RELEASE);
+    delay(5);
+    backmotor.run(FORWARD);
+}
+
+void moveBackward(){
+	backmotor.run(RELEASE);
+	delay(5);
+	backmotor.run(BACKWARD);
+}
+
+void turnLeft(){
+	frontmotor.run(RELEASE);
+    delay(5);
+	frontmotor.run(BACKWARD);
+}
+
+void turnRight(){
+	frontmotor.run(RELEASE);
+	delay(5);
+	frontmotor.run(FORWARD);
+}
