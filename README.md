@@ -9,7 +9,7 @@ Control any cheap rc car using an Arduino, a Motor Shield, and a PI Zero.
 
 Arduino
 -----
-1. Upload the sketch to your Arduino
+1. Upload the sketch to your Arduino<a href="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/Arduino/Arduino%20RC%20Car%20Sketch">LINK</a>
 
 2. Connect GPIO pins
 
