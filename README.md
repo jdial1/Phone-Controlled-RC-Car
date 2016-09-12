@@ -27,7 +27,7 @@ ifconfig wlan0 up
 ```
 
 
-2. Set python script to start on boot -><a href="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/Ras%20Pi%20Zero/Python%20server%20script">LINK</a>
+2. Download python script and set to start on boot -><a href="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/Ras%20Pi%20Zero/Python%20server%20script">LINK</a>
 
 ```bash
 sudo crontab -e
