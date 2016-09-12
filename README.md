@@ -19,18 +19,6 @@ Control any cheap rc car using an Arduino, a Motor Shield, and a PI Zero.
 # SETUP
 
 
-Arduino
------
-  1. Upload the sketch to your Arduino -> <a href="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/Arduino/Arduino%20RC%20Car%20Sketch">LINK</a>
-
-  2. Connect Back motor to M4 and front motor to M1
-
-  3. Connect GPIO pins
-
-<img src="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/images/Pi-Zero-GPIO-PINOUT.PNG" Width=10%></img><img src="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/images/Pi-table.PNG" Width=30%></img>
-
-
-
 Pi Zero
 -----
   1. Install Raspian through NOOBS-> <a href="https://www.raspberrypi.org/downloads/noobs/">LINK</a>
@@ -48,6 +36,18 @@ Pi Zero
     sudo crontab -e
     @reboot python /home/pi/downloads/server.py &
     ```
+
+Arduino
+-----
+  1. Upload the sketch to your Arduino -> <a href="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/Arduino/Arduino%20RC%20Car%20Sketch">LINK</a>
+
+  2. Connect Back motor to M4 and front motor to M1
+
+  3. Connect GPIO pins
+
+<img src="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/images/Pi-Zero-GPIO-PINOUT.PNG" Width=10%></img><img src="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/images/Pi-table.PNG" Width=30%></img>
+
+
 
 
 Phone
