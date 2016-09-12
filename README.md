@@ -29,6 +29,9 @@ This is a project to control any cheap rc car using an Arduino, a Motor Shield, 
  -----
  
   1.Configure static IP address on Pi Zero
+  ```bash
+  ifconfig wlan0 192.168.1.25
+  ```
   
   
   2.Set python script to start on boot
@@ -36,7 +39,7 @@ This is a project to control any cheap rc car using an Arduino, a Motor Shield, 
   ```bash
   sudo crontab -e
   @reboot python /home/pi/downloads/server.py &
-```
+  ```
 
  -----
   Phone
