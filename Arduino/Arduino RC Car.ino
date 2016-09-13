@@ -10,11 +10,11 @@ void setup() {
 	pinMode(A4, INPUT);//right
 	
 	int voltCap=0;
-	int voltSum=0;
+	int voltAverage=0;
 	
 	//get analogReads of each 4 10x
 	for (int i=0; i <= 10; i++){
-		  voltSum = voltSum +analogRead(A0)+analogRead(A1)+analogRead(A2)+analogRead(A4);
+		  voltAverage +=analogRead(A0)+analogRead(A1)+analogRead(A2)+analogRead(A4);
 		  delay(500);
 	} 
 	
