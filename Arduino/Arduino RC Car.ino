@@ -28,9 +28,9 @@ void setup() {
 	//turn left twice to show setup is complete
 	frontmotor.run(BACKWARD);
 	delay(250);
-	backmotor.run(RELEASE);
+	frontmotor.run(RELEASE);
 	delay(250);
-	backmotor.run(BACKWARD);
+	frontmotor.run(BACKWARD);
 	delay(250);
 	backmotor.run(RELEASE);
 	frontmotor.run(RELEASE);
@@ -46,7 +46,7 @@ void loop() {
 	if (analogRead(A0)>voltCap){Forward=true;}
 	if (analogRead(A1)>voltCap){Backward=true;}
 	if (analogRead(A2)>voltCap){Left=true;}
-	if (analogRead(A3)>voltCap){Right=true;}
+	if (analogRead(A4)>voltCap){Right=true;}
 	
 	//forward left
 	if (Forward&&Left){moveLeftForward();}
