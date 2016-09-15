@@ -26,6 +26,7 @@ Pi Zero
   2. Download python script and set to start on boot -> <a href="https://github.com/jdial1/Phone-Controlled-RC-Car/blob/master/Ras%20Pi%20Zero/Python%20server%20script">LINK</a>
   
     ```bash
+    wget https://raw.githubusercontent.com/jdial1/Phone-Controlled-RC-Car/master/Ras%20Pi%20Zero/server.py
     sudo crontab -e
     @reboot python /home/pi/downloads/server.py &
     ```
