@@ -62,10 +62,10 @@ class Client(asyncore.dispatcher_with_send):
 		break;
 		case "STOP":
 		default:
-				gpio.digitalWrite(7,0)
-				gpio.digitalWrite(8,0)
-				gpio.digitalWrite(9,0)
-				gpio.digitalWrite(10,0)
+			gpio.digitalWrite(7,0)
+			gpio.digitalWrite(8,0)
+			gpio.digitalWrite(9,0)
+			gpio.digitalWrite(10,0)
 		break;
 	
 	}	
